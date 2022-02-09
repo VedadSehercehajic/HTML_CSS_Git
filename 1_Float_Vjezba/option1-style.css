@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  height: auto;
+}
+
+/* NAVIGATION */
+
+.navigation {
+  background-color: rgb(44, 44, 44);
+  height: 50px;
+  width: auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  float: left;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 10%;
+  color: white;
+}
+
+.links-nav {
+  float: right;
+  display: inline-block;
+  margin: 14px 0px;
+  margin-right: 10%;
+}
+
+.links-nav:last-of-type {
+  margin-right: 0px;
+}
+
+.link-nav:link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.link-nav:hover {
+  text-decoration: underline;
+}
+
+.link-nav:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.link-nav:active {
+}
+
+.clear-nav {
+  clear: both;
+}
+
+/* MAIN */
+
+.c1 {
+  width: 700px;
+  height: 1800px;
+  background-color: rgb(180, 180, 180);
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  float: left;
+}
+
+.c2 {
+  width: 240px;
+  height: 360px;
+  background-color: rgb(180, 180, 180);
+  margin-top: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  float: right;
+}
+
+.c3 {
+  width: 240px;
+  height: 200px;
+  background-color: rgb(180, 180, 180);
+  margin-top: 20px;
+  margin-right: 20px;
+  display: inline-block;
+  float: right;
+}
+
+.c4 {
+  width: 240px;
+  height: 200px;
+  background-color: rgb(180, 180, 180);
+  margin: 20px 20px;
+  display: inline-block;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.footer {
+  height: 200px;
+  width: auto;
+  background-color: rgb(54, 54, 54);
+}
